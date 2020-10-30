@@ -1,0 +1,9 @@
+.results > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    gap: 110px;
+    justify-content: center;
+    margin: 0 -40px -40px -40px;
+    overflow:hidden;
+    width: 100vw;
+}

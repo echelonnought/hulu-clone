@@ -1,0 +1,37 @@
+.videoCard {
+    color: #fff;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    transition: transform 100ms;
+    margin-bottom: 60px;
+    
+}
+
+.movie_description {
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+.movie_description > h3 {
+    margin-top: 10px;   
+}
+
+.videoCard:hover {
+    transform: scale(1.09);
+}
+
+.videoCard > img {
+    display: block;
+    border-top-right-radius: 0.18rem;
+    border-top-left-radius: 0.18rem;
+    width: 400px;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+
+
+
